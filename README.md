@@ -1,4 +1,4 @@
-#🏅 Olympic Data Analysis Web App
+🏅 #Olympic Data Analysis Web App
 
 A web application built with Python and Streamlit to explore and visualize Olympic data. This app allows users to analyze historical Olympic Games data, focusing on athletes, countries, sports, and medal statistics from 1896 to 2016.
 
