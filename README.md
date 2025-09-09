@@ -1,25 +1,45 @@
-# Olympic Data Analysis Web App
+🏅 Olympic Data Analysis Web App
 
-A web application for analyzing and visualizing Olympic data. This project allows users to explore datasets about Olympic athletes, events, and medals with interactive charts and dashboards.
+A web application built with Python and Streamlit to explore and visualize Olympic data. This app allows users to analyze historical Olympic Games data, focusing on athletes, countries, sports, and medal statistics from 1896 to 2016.
 
+📊 Features
 
-Olympic Data Analysis
-This project performs an exploratory data analysis on the historical Olympic Games dataset. The analysis covers various aspects of the Summer Olympics from 1896 to 2016, including:
-Data loading and initial inspection
-Handling missing values and duplicates
-Analyzing the medal tally for participating countries
-Visualizing trends over time, such as the number of participating countries, events, and athletes
-Creating heatmaps to show the distribution of events across sports and years for overall and specific countries (e.g., India and USA)
-Identifying the most successful athletes for a given country
-Analyzing the age distribution of athletes and medalists
-Visualizing the trend of male and female participation over the years
-The dataset used in this analysis includes information about athletes, events, and NOC regions.
+Overall Analysis: Visualize global trends in Olympic participation and performance.
 
-## Features
+Country Analysis: Dive into individual country performances across different years and sports.
 
-- Interactive data visualization of Olympic records
-- Search and filter athletes, countries, and events
-- Detailed medal statistics and country comparisons
-- User-friendly dashboard interface
+Sport Analysis: Examine medal counts and athlete participation by sport.
 
+Athlete Analysis: Identify the most successful athletes and their achievements.
 
+📁 Project Structure
+
+app.py: Main Streamlit application file.
+
+helper.py: Contains utility functions for data processing and visualization.
+
+preprocessor.py: Handles data cleaning and preprocessing tasks.
+
+athlete_events.csv: Raw dataset containing athlete and event information.
+
+noc_regions.csv: Mapping of National Olympic Committees to countries.
+
+requirements.txt: List of Python dependencies.
+
+📚 Data Source
+
+The Olympic dataset is sourced from Kaggle:
+
+120 Years of Olympic History: Athletes and Results
+
+🧪 Development
+
+The application utilizes the following Python libraries:
+
+pandas: Data manipulation and analysis.
+
+plotly: Interactive data visualization.
+
+matplotlib & seaborn: Statistical data visualization.
+
+streamlit: Web framework for building interactive applications.
